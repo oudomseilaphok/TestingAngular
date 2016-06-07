@@ -1,14 +1,32 @@
 [
 {
     "name":"Phok Oudomseila",
-    "title":"CEO"
+    "title":"CEO",
+    "profile":"https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/13124947_1187938451230080_2891048764647813836_n.jpg?oh=a504d42059defd5175d88907f2ef06d4&oe=57C33EC5",
+    "detail":{
+        "age":"21",
+        "relationship":"In-Relationship",
+        "speciality":"Programming and Pro-gaming"
+    }
 },
 {
 "name":"Phark Manoth",
-"title":"CFO"
+"title":"CFO",
+    "profile": "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/1623332_662483357131076_188703060_n.jpg?oh=eff0cb3fdd0d7d05e555d13cad4733e6&oe=57D7C7D9",
+    "detail":{
+        "age":"22",
+        "relationship":"In-Relationship",
+        "speciality":"Design and Sale"
+    }
 },
 {
 "name":"Mora",
-"title":"COO"
+"title":"COO",
+    "profile":"https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/12009734_984854078223018_8606370397442652883_n.jpg?oh=0d60b418c937d625856d7c243ea5cff7&oe=580C5C0D",
+    "detail":{
+        "age":"22",
+        "relationship":"In-Relationship",
+        "speciality":"Design and Media"
+    }
 }
 ]

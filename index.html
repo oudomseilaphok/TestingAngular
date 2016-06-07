@@ -10,16 +10,37 @@
 
 </head>
 <body ng-app="TestingAngular" ng-controller="testingController">
-<button ng-click="showMessage = !showMessage">Toggle Message</button>
-<h2 ng-show="showMessage == true">Secret Message</h2>
+<!--<button ng-click="showMessage = !showMessage">Toggle Message</button>-->
+<!--<h2 ng-show="showMessage == true">Secret Message</h2>-->
 
-<input type="text" placeholder="Leave a message" ng-model="message">
-<h2>{{ message }}</h2>
+<!--<input type="text" placeholder="Leave a message" ng-model="message">-->
+<!--<h2>{{ message }}</h2>-->
 
-<div class="well" ng-repeat="person in persons">
-    <h3>{{ person.name }}</h3>
-    <h2>{{ person.title }}</h2>
+<!--<div class="well" ng-repeat="person in persons">-->
+    <!--<h3>{{ person.name }}</h3>-->
+    <!--<h2>{{ person.title }}</h2>-->
+<!--</div>-->
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">TestingAngular</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="col-sm-4" ng-repeat="person in persons">
+        <div class="thumbnail" >
+            <img ng-src="{{ person.profile }}" alt="">
+            <div class="caption">
+                <p><strong>Name: </strong>{{ person.name }}</p>
+                <p><strong>Title: </strong>{{ person.title }}</p>
+            </div>
+        </div>
+    </div>
 </div>
+
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
